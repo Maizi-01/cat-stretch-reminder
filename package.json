@@ -1,0 +1,8 @@
+{
+  "name": "cat-stretch-reminder",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "preview": "python3 -m http.server 4173"
+  }
+}

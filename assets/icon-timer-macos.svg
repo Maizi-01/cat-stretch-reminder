@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="macos-icon-shape">
+      <rect x="18" y="18" width="476" height="476" rx="108" ry="108" />
+    </clipPath>
+  </defs>
+  <image
+    href="icon-timer.png"
+    width="512"
+    height="512"
+    clip-path="url(#macos-icon-shape)"
+  />
+</svg>

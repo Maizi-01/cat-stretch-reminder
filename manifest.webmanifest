@@ -1,0 +1,18 @@
+{
+  "name": "小猫伸展提醒器",
+  "short_name": "伸展提醒",
+  "description": "一只小猫陪你定时站起来伸展，支持自定义间隔、语音提醒和浏览器通知。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff1cf",
+  "theme_color": "#fff1cf",
+  "icons": [
+    {
+      "src": "./assets/icon-timer-macos.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
