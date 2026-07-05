@@ -2,6 +2,12 @@
 
 一个纯前端的番茄式久坐提醒器。它会在设定时间后提醒你伸展肩颈、看看远处、喝水或短暂休息，也可以开启语音提醒和浏览器通知。
 
+## 预览
+
+![桌面版预览](assets/screenshots/desktop.png)
+
+![移动端预览](assets/screenshots/mobile.png)
+
 ## 功能
 
 - 5 / 10 / 15 / 25 / 45 分钟和自定义提醒间隔
@@ -64,6 +70,7 @@ git push -u origin main
 ```text
 .
 ├── assets/                 # 图片和提醒音频
+│   └── screenshots/         # README 预览截图
 ├── index.html              # 页面入口
 ├── styles.css              # 样式
 ├── script.js               # 计时、提醒和交互逻辑
