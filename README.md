@@ -22,22 +22,12 @@
 - 支持安装到桌面
 - 纯静态部署，不需要后端服务
 
-## 本地使用
+## 本地开发
 
-如果你想在自己的电脑上调试或修改项目，可以使用下面的本地运行方式。
-
-直接用浏览器打开 `index.html` 即可。
-
-也可以启动本地服务器：
+如果你想在自己的电脑上调试或修改项目，可以启动本地服务器：
 
 ```bash
 npm run preview
-```
-
-或者：
-
-```bash
-python3 -m http.server 4173
 ```
 
 然后访问：
@@ -48,26 +38,13 @@ http://localhost:4173/
 
 ## 部署
 
-这是一个纯静态网页，不需要后端。推荐任选一种方式发布：
+这是一个纯静态网页，不需要后端。如果你 fork 了这个项目，可以任选一种方式发布自己的版本：
 
-1. GitHub Pages：把这些文件放到仓库根目录，进入 `Settings -> Pages`，选择从 `main` 分支根目录部署。
+1. GitHub Pages：进入 `Settings -> Pages`，选择从 `main` 分支根目录部署。
 2. Netlify：把整个项目文件夹拖到 Netlify 的 Deploy 页面。
 3. Vercel：新建 Project，导入这个仓库，Framework Preset 选 `Other`。
 
 发布后，把生成的 `https://...` 链接发给朋友即可。浏览器通知通常需要 HTTPS，部署后的链接可以正常申请通知权限。
-
-## 开源发布到 GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial open source release"
-git branch -M main
-git remote add origin https://github.com/你的用户名/cat-stretch-reminder.git
-git push -u origin main
-```
-
-如果你已经在 GitHub 页面上创建了仓库，把上面的 `你的用户名` 改成你的 GitHub 用户名即可。
 
 ## 项目结构
 
